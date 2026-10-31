@@ -14,7 +14,7 @@ let textA = "w-full p-3 text-sm outline-none rounded-lg border border-gray-300 d
 
 
 function Contact() {
-    const accessKey = import.meta.env.VITE_WEB3FORMS_ACCESS_KEY;
+    const accessKey = import.meta.env.VITE_RAJ_ACCESS_KEY;
     const onSubmit = async (event) => {
         event.preventDefault();
         const formData = new FormData(event.target);
